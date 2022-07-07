@@ -1,0 +1,142 @@
+Durée du processus:0.08420349799999993
+
+Texte origianl: 
+Le virus a souligné que « les Français ont franchement du cran » et promis qu’il mettait fin à sa campagne de contagion pour cette année.« Franchement, moi-même je me demande si j’aurai le même courage qu’eux » a expliqué le virus lors d’une conférence de presse. « Depuis quelques jours, je sens une vraie résistance, les gens portent plus de masques, se rapprochent, mangent au restaurant comme si de rien n’était et j’avoue, ça me fait un peu perdre mes moyens » explique le virus qui dit « ne plus trouver de plaisir à contaminer des gens qui ne font même plus d’efforts ». « Il n’y a plus vraiment de gloire en fait, avant je me disais « cool, un de plus en réanimation », mais maintenant j’en envois par paquet de dix, quel est le fun, franchement ? ». Le virus a ainsi annoncé ainsi qu’il préférait cesser toutes ses chaînes de contaminations à partir de ce soir minuit, pour se recentrer sur ses multiples variants à l’international. « J’aurai du me méfier, les Français sont super courageux, au fond je ne suis qu’un petit virus grippal, qu’est-ce que je peux faire » a-t-il souligner, ne fermant pas pour autant à une mutation qui reviendrait sous forme de MST. « Ils sont tellement cons qu’ils seraient capables de ne plus mettre de capotes du tout pour protester ! »
+
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N Le virus]】
+【Règle: VER [Chunk:V a souligné]】
+【[Chunk:PCT(N)F «]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N les Français]】
+【Règle: VER [Chunk:V ont franchement du]】
+【Règle: ADV Chunk:ADV] franchement】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN du cran]】
+【[Chunk:PCT(N)F »]】
+【Règle: KON [Chunk:CO] et】
+【Règle: VER [Chunk:V promis]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN à sa campagne]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN de contagion]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN pour cette année]】
+【[Chunk:PCT(N)F .]】
+【[Chunk:PCT(N)F «]】
+【Règle: ADV Chunk:ADV] Franchement】
+【[Chunk:PCT(N)F ,]】
+【Règle: PRO_PERVER_pres [Chunk:SV me demande]】
+【[Chunk:PCT(N)F »]】
+【Règle: VER [Chunk:V a expliqué]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N le virus]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN d' une conférence]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN de presse]】
+【[Chunk:PCT(N)F .]】
+【[Chunk:PCT(N)F «]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN Depuis quelques jours]】
+【[Chunk:PCT(N)F ,]】
+【Règle: PRO_PERVER_pres [Chunk:SV je sens une vraie]】
+【[Chunk:PCT(N)F ,]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N les gens]】
+【Règle: VER [Chunk:V portent plus de]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN de masques]】
+【[Chunk:PCT(N)F ,]】
+【Règle: PRO [Chunk:Vse se rapprochent]】
+【[Chunk:PCT(N)F ,]】
+【Règle: VER [Chunk:V mangent]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN au restaurant]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN si de rien]】
+【Règle: KON [Chunk:CS] comme si】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN de rien]】
+【Règle: KON [Chunk:CO] et】
+【Règle: PRO_PERVER_pres [Chunk:SV j' avoue]】
+【[Chunk:PCT(N)F ,]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N mes moyens]】
+【[Chunk:PCT(N)F »]】
+【Règle: VER [Chunk:V explique]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N le virus]】
+【Règle: PRelS [Chunk:PRelS qui]】
+【Règle: VER [Chunk:V dit]】
+【[Chunk:PCT(N)F «]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN de plaisir]】
+【Règle: VER [Chunk:PVer à contaminer]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN des gens]】
+【Règle: PRelS [Chunk:PRelS qui]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN d' efforts]】
+【[Chunk:PCT(N)F »]】
+【[Chunk:PCT(N)F .]】
+【[Chunk:PCT(N)F «]】
+【Règle: PRO.*?ADV_negPRO.*?ADV [Chunk:SV Il n' y a plus]】
+【Règle: ADV Chunk:ADV] vraiment】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN de gloire]】
+【[Chunk:PCT(N)F ,]】
+【[Chunk:PCT(N)F «]】
+【[Chunk:PCT(N)F ,]】
+【[Chunk:PCT(N)F »]】
+【[Chunk:PCT(N)F ,]】
+【Règle: KON [Chunk:CS] mais】
+【Règle: PRO_PERVER_pres [Chunk:SV en envois]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN par paquet]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN de dix]】
+【[Chunk:PCT(N)F ,]】
+【Règle: VER [Chunk:V est]】
+【[Chunk:PCT(N)F ,]】
+【Règle: ADV Chunk:ADV] franchement】
+【[Chunk:PCT(N)F ?]】
+【[Chunk:PCT(N)F »]】
+【[Chunk:PCT(N)F .]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N Le virus]】
+【Règle: VER [Chunk:V a ainsi annoncé]】
+【Règle: KON [Chunk:CS] ainsi qu'】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN de contaminations]】
+【Règle: VER [Chunk:PVer à partir]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN de ce soir]】
+【[Chunk:PCT(N)F ,]】
+【Règle: PRO [Chunk:Vse se recentrer]】
+【[Chunk:PCT(N)F .]】
+【[Chunk:PCT(N)F «]】
+【[Chunk:PCT(N)F ,]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N les Français]】
+【Règle: VER [Chunk:V sont super]】
+【[Chunk:PCT(N)F ,]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN au fond]】
+【[Chunk:PCT(N)F ,]】
+【Règle: PRO_PERVER_pres [Chunk:SV je peux faire]】
+【[Chunk:PCT(N)F »]】
+【Règle: VER [Chunk:V a-t-il souligner]】
+【[Chunk:PCT(N)F ,]】
+【Règle: ADV Chunk:ADV] autant】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN à une mutation]】
+【Règle: PRelS [Chunk:PRelS qui]】
+【Règle: VER [Chunk:V reviendrait]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN sous forme]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN de MST]】
+【[Chunk:PCT(N)F .]】
+【[Chunk:PCT(N)F «]】
+【Règle: PRO_PERVER_pres [Chunk:SV Ils sont tellement cons]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN de capotes]】
+【Règle: VER [Chunk:PVer pour protester]】
+【[Chunk:PCT(N)F !]】
+【[Chunk:PCT(N)F »]】
+--------------------------------------------------------------------------------
+Nombre de Chunk :110
+Nombre de 'Chunk:N':8	Pourcentage: (7.27%)
+Nombre de 'Chunk:V':13	Pourcentage: (11.82%)
+Nombre de 'Chunk:PVer':3		Pourcentage: (2.73%)
+Nombre de 'Chunk:PCT(N)F':40	Pourcentage: (36.36%)
+Nombre de 'Chunk:PN':24	Pourcentage: (21.82%)
+Nombre de 'Chunk:PRelS':3		Pourcentage: (2.73%)
+Nombre de 'Chunk:CO':2	Pourcentage: (1.82%)
+Nombre de 'Chunk:CS':3	Pourcentage: (2.73%)
+Nombre de 'Chunk:SV':7	Pourcentage: (6.36%)
+Nombre de 'Chunk:ADV':5	Pourcentage: (4.55%)
+Nombre de 'Chunk:Vse':2	Pourcentage: (1.82%)
+Nombre de 'Chunk:PVant':0		Pourcentage: (0.00%)
+--------------------------------------------------------------------------------
+Nombre de règle 'NOM|NAM': 0	Pourcentage: (0.00%)
+Nombre de règle '(NUM|DET).*?(NOM|NAM).*?(ADJ)?': 8	Pourcentage: (7.27%)
+Nombre de règle '(PRP|KON).*?(NOM|NAM).*?(ADJ)?': 24	Pourcentage: (21.82%)
+Nombre de règle 'PRO_PERVER_pres': 6	Pourcentage: (5.45%)
+Nombre de règle 'PRO.*?ADV_negVER.*?ADV': 0	Pourcentage: (0.00%)
+Nombre de règle 'PRO.*?ADV_negPRO.*?ADV': 1	Pourcentage: (0.91%)
+Nombre de règle 'VER': 16		Pourcentage: (14.55%)
+Nombre de règle 'ADV': 5		Pourcentage: (4.55%)
+Nombre de règle 'KON': 5		Pourcentage: (4.55%)
+Nombre de règle 'PRelS': 3	Pourcentage: (2.73%)
+Nombre de règle 'PRO': 2		Pourcentage: (1.82%)
+Nombre de règle 'PCT(N)F': 40	Pourcentage: (36.36%)

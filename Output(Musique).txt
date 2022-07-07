@@ -1,0 +1,147 @@
+Durée du processus:0.06388073100000002
+
+Texte origianl: 
+La musique aide à garder espoir, comme cette femme qui a littéralement succombé au charme musical d'Antony and the Johnsons, "Cut the world" alors qu'elle n'écoute pas souvent de la musique.
+Dans les rues de Créteil, les habitants se souviennent de Jean Ferrat qui chantait "Ma môme", et évoquent d’autres chansons qui ont marqué leur vie.
+Il n'y a plus d'usines à Créteil mais il reste des chansons qui font vivre les usines dans les mémoires des gens. Dans les parcs, les rues, aux abords de la Marne, les habitants parviennent à trouver des correspondances entre l'art et la vie en chantant leurs chansons préférées. 
+Antoine, 24 ans, étudiant en philosophie, s'inspire d'une chanson de Charles Aznavour, "Il faut savoir" pour préserver sa dignité.
+Ce n'est pas parce qu'on se plaint qu'on n'a pas de dignité. Même le quotidien est parfois difficile à surmonter. Toute l'existence est difficile à surmonter en somme, je crois. Il faut être fort, il faut être encore plus fort pour vivre en étant heureux. 
+
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N La musique]】
+【Règle: VER [Chunk:V aide]】
+【Règle: VER [Chunk:PVer à garder]】
+【Règle: NOM|NAM [Chunk:N espoir]】
+【[Chunk:PCT(N)F ,]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN comme cette femme]】
+【Règle: PRelS [Chunk:PRelS qui]】
+【Règle: VER [Chunk:V a littéralement succombé]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN au charme musical]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN d' Antony]】
+【Règle: KON [Chunk:CO] and】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N the Johnsons]】
+【[Chunk:PCT(N)F ,]】
+【[Chunk:PCT(N)F "]】
+【Règle: VER [Chunk:V Cut]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N the world]】
+【[Chunk:PCT(N)F "]】
+【Règle: KON [Chunk:CS] alors qu'】
+【Règle: PRO.*?ADV_negVER.*?ADV [Chunk:SV elle n' écoute pas]】
+【Règle: ADV [Chunk:ADV souvent】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN de la musique]】
+【[Chunk:PCT(N)F .]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN Dans les rues]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN de Créteil]】
+【[Chunk:PCT(N)F ,]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N les habitants]】
+【Règle: PRO [Chunk:Vse se souviennent]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN de Jean Ferrat]】
+【Règle: PRelS [Chunk:PRelS qui]】
+【Règle: VER [Chunk:V chantait]】
+【[Chunk:PCT(N)F "]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N Ma môme]】
+【[Chunk:PCT(N)F "]】
+【[Chunk:PCT(N)F ,]】
+【Règle: KON [Chunk:CO] et】
+【Règle: VER [Chunk:V évoquent]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN d' autres chansons]】
+【Règle: PRelS [Chunk:PRelS qui]】
+【Règle: VER [Chunk:V ont marqué]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N leur vie]】
+【[Chunk:PCT(N)F .]】
+【Règle: PRO.*?ADV_negPRO.*?ADV [Chunk:SV Il n' y a plus]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN d' usines]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN à Créteil]】
+【Règle: KON [Chunk:CS] mais】
+【Règle: PRO_PERVER_pres [Chunk:SV il reste]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN des chansons]】
+【Règle: PRelS [Chunk:PRelS qui]】
+【Règle: VER [Chunk:V font vivre]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N les usines]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN dans les mémoires]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN des gens]】
+【[Chunk:PCT(N)F .]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN Dans les parcs]】
+【[Chunk:PCT(N)F ,]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N les rues]】
+【[Chunk:PCT(N)F ,]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN aux abords]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN de la Marne]】
+【[Chunk:PCT(N)F ,]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N les habitants]】
+【Règle: VER [Chunk:V parviennent]】
+【Règle: VER [Chunk:PVer à trouver]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN des correspondances]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN entre l' art]】
+【Règle: KON [Chunk:CO] et】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N la vie]】
+【Règle: VER [Chunk:PVant en chantant]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N leurs chansons préférées]】
+【[Chunk:PCT(N)F .]】
+【Règle: NOM|NAM [Chunk:N Antoine]】
+【[Chunk:PCT(N)F ,]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N 24 ans]】
+【[Chunk:PCT(N)F ,]】
+【Règle: NOM|NAM [Chunk:N étudiant]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN en philosophie]】
+【[Chunk:PCT(N)F ,]】
+【Règle: PRO [Chunk:Vse s' inspire]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN d' une chanson]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN de Charles Aznavour]】
+【[Chunk:PCT(N)F ,]】
+【[Chunk:PCT(N)F "]】
+【Règle: PRO_PERVER_pres [Chunk:SV Il faut savoir]】
+【[Chunk:PCT(N)F "]】
+【Règle: VER [Chunk:PVer pour préserver]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N sa dignité]】
+【[Chunk:PCT(N)F .]】
+【Règle: PRO.*?ADV_negVER.*?ADV [Chunk:SV Ce n' est pas]】
+【Règle: KON [Chunk:CS] parce qu'】
+【Règle: PRO_PERVER_pres [Chunk:SV on se plaint qu']】
+【Règle: PRO.*?ADV_negVER.*?ADV [Chunk:SV on n' a pas]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN de dignité]】
+【[Chunk:PCT(N)F .]】
+【Règle: ADV [Chunk:ADV Même】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N le quotidien]】
+【Règle: VER [Chunk:V est parfois difficile]】
+【Règle: VER [Chunk:PVer à surmonter]】
+【[Chunk:PCT(N)F .]】
+【Règle: (NUM|DET).*?(NOM|NAM).*?(ADJ)? [Chunk:N Toute l' existence]】
+【Règle: VER [Chunk:V est difficile]】
+【Règle: VER [Chunk:PVer à surmonter]】
+【Règle: (PRP|KON).*?(NOM|NAM).*?(ADJ)? [Chunk:PN en somme]】
+【[Chunk:PCT(N)F ,]】
+【Règle: PRO_PERVER_pres [Chunk:SV je crois]】
+【[Chunk:PCT(N)F .]】
+【Règle: PRO_PERVER_pres [Chunk:SV Il faut être fort]】
+【[Chunk:PCT(N)F ,]】
+【Règle: PRO_PERVER_pres [Chunk:SV il faut être encore plus fort]】
+【Règle: VER [Chunk:PVer pour vivre]】
+【Règle: VER [Chunk:PVant en étant heureux]】
+【[Chunk:PCT(N)F .]】
+--------------------------------------------------------------------------------
+Nombre de Chunk :111
+Nombre de 'Chunk:N':18	Pourcentage: (16.22%)
+Nombre de 'Chunk:V':10	Pourcentage: (9.01%)
+Nombre de 'Chunk:PVer':6		Pourcentage: (5.41%)
+Nombre de 'Chunk:PCT(N)F':28	Pourcentage: (25.23%)
+Nombre de 'Chunk:PN':23	Pourcentage: (20.72%)
+Nombre de 'Chunk:PRelS':4		Pourcentage: (3.60%)
+Nombre de 'Chunk:CO':3	Pourcentage: (2.70%)
+Nombre de 'Chunk:CS':3	Pourcentage: (2.70%)
+Nombre de 'Chunk:SV':10	Pourcentage: (9.01%)
+Nombre de 'Chunk:ADV':2	Pourcentage: (1.80%)
+Nombre de 'Chunk:Vse':2	Pourcentage: (1.80%)
+Nombre de 'Chunk:PVant':2		Pourcentage: (1.80%)
+--------------------------------------------------------------------------------
+Nombre de règle 'NOM|NAM': 3	Pourcentage: (2.70%)
+Nombre de règle '(NUM|DET).*?(NOM|NAM).*?(ADJ)?': 15	Pourcentage: (13.51%)
+Nombre de règle '(PRP|KON).*?(NOM|NAM).*?(ADJ)?': 23	Pourcentage: (20.72%)
+Nombre de règle 'PRO_PERVER_pres': 6	Pourcentage: (5.41%)
+Nombre de règle 'PRO.*?ADV_negVER.*?ADV': 3	Pourcentage: (2.70%)
+Nombre de règle 'PRO.*?ADV_negPRO.*?ADV': 1	Pourcentage: (0.90%)
+Nombre de règle 'VER': 18		Pourcentage: (16.22%)
+Nombre de règle 'ADV': 2		Pourcentage: (1.80%)
+Nombre de règle 'KON': 6		Pourcentage: (5.41%)
+Nombre de règle 'PRelS': 4	Pourcentage: (3.60%)
+Nombre de règle 'PRO': 2		Pourcentage: (1.80%)
+Nombre de règle 'PCT(N)F': 28	Pourcentage: (25.23%)

@@ -1,0 +1,15 @@
+﻿ADV: {<ADV>} 
+CO: {<KON.*>} 
+CS: {<ADV|KON>?<KON>} 
+GF: {<GUILLEMET_F>} 
+GO: {<GUILLEMET_O>} 
+N: {<PRO_IND>?<DET.*><NUM>?<NOM|NAM>} 
+PCTF: {<SENT|PUNF>} 
+PCTNF: {<PUNIF>} 
+PN: {<KON|PRP.*>+<PRO_DEM|DET_ART>?<ADJ>?<NOM|NAM>+<ADJ>?} 
+PRelS: {<PRO_REL>}
+PVant: {<PRP><VER_ppre.*><ADJ>?} 
+PVer: {<PRP><VER_infi>} 
+SN: {<PRO_.*><PRO_PER>?<ADV_neg>?<PRO_PER>?<VER_pres><ADV_neg>?<KON>?<VER_infi>?<ADJ>?} 
+V: {<VER_.*><ADV>?<VER_pper|VER_infi>?<ADJ>?} 
+VSe: {<PRO_PER><VER_infi|VER_pres>} 

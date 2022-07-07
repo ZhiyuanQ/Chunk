@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CHUNKING_OUTUP SYSTEM "CHUNKING_OUTUP.dtd">
+<CHUNKING_OUTUP>
+    <CHKHEAD>
+        <PARSE_DATE>14-05-2020</PARSE_DATE>
+        <SRC>La musique aide à garder espoir, comme cette femme qui a littéralement succombé au charme musical d'Antony and the Johnsons, "Cut the world" alors qu'elle n'écoute pas souvent de la musique.
+Dans les rues de Créteil, les habitants se souviennent de Jean Ferrat qui chantait "Ma môme", et évoquent d’autres chansons qui ont marqué leur vie.
+Il n'y a plus d'usines à Créteil mais il reste des chansons qui font vivre les usines dans les mémoires des gens. Dans les parcs, les rues, aux abords de la Marne, les habitants parviennent à trouver des correspondances entre l'art et la vie en chantant leurs chansons préférées. 
+Antoine, 24 ans, étudiant en philosophie, s'inspire d'une chanson de Charles Aznavour, "Il faut savoir" pour préserver sa dignité.
+Ce n'est pas parce qu'on se plaint qu'on n'a pas de dignité. Même le quotidien est parfois difficile à surmonter. Toute l'existence est difficile à surmonter en somme, je crois. Il faut être fort, il faut être encore plus fort pour vivre en étant heureux. 
+        </SRC>
+        <RES>
+            <RES_LEX>lexique文件</RES_LEX>
+            <RES_REG>re_regleN1 = 'NOM|NAM'
+re_regleN2 = '(NUM|DET).*?(NOM|NAM).*?(ADJ)?'
+re_reglePN = '(PRP|KON).*?(NOM|NAM).*?(ADJ)?'
+re_regleSV2 = 'PRO_PERVER_pres'
+re_regleSV4 = 'PRO.*?ADV_negVER.*?ADV'
+re_regleSV5 = 'PRO.*?ADV_negPRO.*?ADV'
+re_regleVx = 'VER'
+re_regleADV = 'ADV'
+re_regleCoCs = 'KON'
+re_reglePRelS= 'PRelS'
+re_regleVse = 'PRO'</RES_REG>
+        </RES>
+    </CHKHEAD>
+    <CHKBODY>
+        <SENT>
+            <CHK regle_utilisee="(NUM|DET).*?(NOM|NAM).*?(ADJ)?" categorie="N">La musique</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="VER" categorie="V">aide</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="VER" categorie="PVer">à garder</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="NOM|NAM" categorie="N">espoir</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="direct" categorie="PCT(N)F">,</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">comme cette femme</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="PRelS" categorie="PRelS">qui</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="VER" categorie="V">a littéralement succombé</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">au charme musical</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">d' Antony</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="KON" categorie="CO">and</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(NUM|DET).*?(NOM|NAM).*?(ADJ)?" categorie="N">the Johnsons</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="direct" categorie="PCT(N)F">,</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="direct" categorie="PCT(N)F">"</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="VER" categorie="V">Cut</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(NUM|DET).*?(NOM|NAM).*?(ADJ)?" categorie="N">the world</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="direct" categorie="PCT(N)F">"</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="KON" categorie="CS">alors qu'</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="PRO.*?ADV_negVER.*?ADV" categorie="SV">elle n' écoute pas</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="VER" categorie="ADV">souvent</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">de la musique</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="direct" categorie="PCT(N)F">.</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">Dans les rues</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">de Créteil</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="direct" categorie="PCT(N)F">,</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(NUM|DET).*?(NOM|NAM).*?(ADJ)?" categorie="N">les habitants</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="PRO" categorie="Vse">se souviennent</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">de Jean Ferrat</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="PRelS" categorie="PRelS">qui</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="VER" categorie="V">chantait</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="direct" categorie="PCT(N)F">"</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(NUM|DET).*?(NOM|NAM).*?(ADJ)?" categorie="N">Ma môme</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="direct" categorie="PCT(N)F">"</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="direct" categorie="PCT(N)F">,</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="KON" categorie="CO">et</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="VER" categorie="V">évoquent</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">d' autres chansons</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="PRelS" categorie="PRelS">qui</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="VER" categorie="V">ont marqué</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(NUM|DET).*?(NOM|NAM).*?(ADJ)?" categorie="N">leur vie</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="direct" categorie="PCT(N)F">.</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="PRO.*?ADV_negPRO.*?ADV" categorie="SV">Il n' y a plus</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">d' usines</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">à Créteil</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="KON" categorie="CS">mais</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="PRO_PERVER_pres" categorie="SV">il reste</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">des chansons</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="PRelS" categorie="PRelS">qui</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="VER" categorie="V">font vivre</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(NUM|DET).*?(NOM|NAM).*?(ADJ)?" categorie="N">les usines</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">dans les mémoires</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">des gens</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="direct" categorie="PCT(N)F">.</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">Dans les parcs</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="direct" categorie="PCT(N)F">,</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(NUM|DET).*?(NOM|NAM).*?(ADJ)?" categorie="N">les rues</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="direct" categorie="PCT(N)F">,</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">aux abords</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">de la Marne</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="direct" categorie="PCT(N)F">,</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(NUM|DET).*?(NOM|NAM).*?(ADJ)?" categorie="N">les habitants</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="VER" categorie="V">parviennent</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="VER" categorie="PVer">à trouver</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">des correspondances</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">entre l' art</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="KON" categorie="CO">et</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(NUM|DET).*?(NOM|NAM).*?(ADJ)?" categorie="N">la vie</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="VER" categorie="PVant">en chantant</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(NUM|DET).*?(NOM|NAM).*?(ADJ)?" categorie="N">leurs chansons préférées</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="direct" categorie="PCT(N)F">.</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="NOM|NAM" categorie="N">Antoine</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="direct" categorie="PCT(N)F">,</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="(NUM|DET).*?(NOM|NAM).*?(ADJ)?" categorie="N">24 ans</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="direct" categorie="PCT(N)F">,</CHK>
+        </SENT>
+        <SENT>
+            <CHK regle_utilisee="NOM|NAM" categorie="N">étudiant</CHK>
+            <SENT>
+                <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">en philosophie</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="direct" categorie="PCT(N)F">,</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="PRO" categorie="Vse">s' inspire</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">d' une chanson</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">de Charles Aznavour</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="direct" categorie="PCT(N)F">,</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="direct" categorie="PCT(N)F">"</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="PRO_PERVER_pres" categorie="SV">Il faut savoir</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="direct" categorie="PCT(N)F">"</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="VER" categorie="PVer">pour préserver</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="(NUM|DET).*?(NOM|NAM).*?(ADJ)?" categorie="N">sa dignité</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="direct" categorie="PCT(N)F">.</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="PRO.*?ADV_negVER.*?ADV" categorie="SV">Ce n' est pas</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="KON" categorie="CS">parce qu'</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="PRO_PERVER_pres" categorie="SV">on se plaint qu'</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="PRO.*?ADV_negVER.*?ADV" categorie="SV">on n' a pas</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">de dignité</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="direct" categorie="PCT(N)F">.</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="VER" categorie="ADV">Même</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="(NUM|DET).*?(NOM|NAM).*?(ADJ)?" categorie="N">le quotidien</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="VER" categorie="V">est parfois difficile</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="VER" categorie="PVer">à surmonter</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="direct" categorie="PCT(N)F">.</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="(NUM|DET).*?(NOM|NAM).*?(ADJ)?" categorie="N">Toute l' existence</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="VER" categorie="V">est difficile</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="VER" categorie="PVer">à surmonter</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="(PRP|KON).*?(NOM|NAM).*?(ADJ)?" categorie="PN">en somme</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="direct" categorie="PCT(N)F">,</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="PRO_PERVER_pres" categorie="SV">je crois</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="direct" categorie="PCT(N)F">.</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="PRO_PERVER_pres" categorie="SV">Il faut être fort</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="direct" categorie="PCT(N)F">,</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="PRO_PERVER_pres" categorie="SV">il faut être encore plus fort</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="VER" categorie="PVer">pour vivre</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="VER" categorie="PVant">en étant heureux</CHK>
+            </SENT>
+            <SENT>
+                <CHK regle_utilisee="direct" categorie="PCT(N)F">.</CHK>
+            </SENT>
+        </CHKBODY>
+    </CHUNKING_OUTUP>
